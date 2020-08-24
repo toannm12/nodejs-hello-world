@@ -3,3 +3,5 @@ services:
  hello-app:
   build: .
   image: 192.168.137.1:5000/hello-app
+  ports:
+    - ${PORT}:80
